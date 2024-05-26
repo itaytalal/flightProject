@@ -7,7 +7,7 @@ export default function SignIn() {
     const navigate = useNavigate()
 
     const enter=()=>{
-        if(pass==12345) 
+        if(pass==12347) 
             navigate("/controlPanel")
         else alert("wrong password")
     }
